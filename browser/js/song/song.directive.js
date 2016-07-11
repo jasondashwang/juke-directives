@@ -26,8 +26,8 @@ juke.directive('songList', function(PlayerFactory){
         }
       };
     }
-  }
-})
+  };
+});
 
 juke.directive('doubleClick', function(PlayerFactory){
   return {
